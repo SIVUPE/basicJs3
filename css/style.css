@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: aqua;
+
+}
+div{
+    position: absolute;
+    left: 50%;
+    right: 50%;
+    top: 50%;
+    bottom: 50%;
+    transform: translate(-50% ,-50%); 
+    height: 50%;
+    width: 50%;
+    
+
+}
+/* h2{
+    font-weight: bolder;
+    font-size: xx-large;
+    padding: 18%;
+    margin: -1%;
+
+} */
+h2{
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.cal{
+    background-color: rgb(121, 137, 137);
+    color: aliceblue;
+    border-radius: 10px;
+    height: 30px;
+    margin-top: 10px;
+    margin-left: 60px;
+}
+.cal:hover{
+    background-color: aliceblue;
+}
+.cal2:hover{
+    background-color: aliceblue;
+}
+.cal2{
+    background-color: rgb(102, 130, 130);
+    color: aliceblue;
+    border-radius: 10px;
+    height: 30px;
+    width: 50px; 
+    margin-left: 70px;
+}
+.content{
+    background-color: rgb(56, 177, 171);
+    height: 200px;
+    width: 300px;
+    border-radius: 20px;
+}
+input{
+    height: 35px;
+    background-color: transparent;
+    border: 2px solid;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+label{
+    margin-left: 16px;
+}
+
